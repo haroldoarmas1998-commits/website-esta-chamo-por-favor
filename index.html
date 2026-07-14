@@ -4,11 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Farias Contracting | Real Craft. Real Results. Done Right.</title>
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Google Fonts for the exact typography look -->
+  <link rel="stylesheet" href="styles.css?v=1.1" />
+  <!-- Google Fonts for the typography look -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Impactful sans-serif headlines & clean body font -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght=600;700&family=Inter:wght=400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -23,6 +22,7 @@
       <a href="#how-it-works">How It Works</a>
       <a href="#approach">Our Approach</a>
       <a href="#reviews">Reviews</a>
+      <a href="#gallery">Portfolio</a>
     </nav>
     <a href="#contact" class="btn-quote-header">Get a Quote</a>
   </header>
@@ -54,19 +54,19 @@
       <div class="hero-image-side">
         <div class="image-grid">
           <div class="grid-item">
-            <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=500&q=80" alt="Painting" />
+            <img src="painting-after.jpg" alt="Painting Work" />
             <div class="img-overlay-text text-left-top">HIGH REACH,<br><span class="highlight">EXPECTATIONS.</span></div>
           </div>
           <div class="grid-item">
-            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=500&q=80" alt="Remodeling" />
+            <img src="deck-after.jpg" alt="Remodeling Work" />
             <div class="img-overlay-text text-center">THE<br>"BETTER BUILT"<br>PROMISE.</div>
           </div>
           <div class="grid-item">
-            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=500&q=80" alt="Drywall" />
+            <img src="crew 1.jpg" alt="Our Crew in Action" />
             <div class="img-overlay-text text-left-bottom">EVERY<br>DETAIL<br>COUNTS.</div>
           </div>
           <div class="grid-item">
-            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=500&q=80" alt="Electrical" />
+            <img src="gutter-after.jpg" alt="Gutter Work" />
             <div class="img-overlay-text text-center-bottom">DONE RIGHT.<br>FIRST TIME.</div>
           </div>
         </div>
@@ -194,32 +194,55 @@
   </section>
 
   <!-- Gallery Section -->
-  <section class="gallery-section">
+  <section id="gallery" class="gallery-section">
     <div class="section-title-wrap">
-      <h2 class="section-headline">BEFORE & AFTER.</h2>
-      <p class="section-subtext">Real jobs, real results. These photos will be replaced with actual project photos — swap yours in anytime.</p>
+      <h2 class="section-headline">PROVEN RESULTS.</h2>
+      <p class="section-subtext">Real transformations. We bring precision, clean lines, and expert tradesmanship to every project.</p>
     </div>
 
     <div class="gallery-grid">
-      <div class="gallery-card">
-        <h3>Deck Renovation</h3>
-        <div class="split-view">
-          <div class="pane"><span class="badge-pane">Before</span><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=400&q=80" alt="Deck Before" /></div>
-          <div class="pane"><span class="badge-pane panel-after">After</span><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80" alt="Deck After" /></div>
-        </div>
-      </div>
-      <div class="gallery-card">
-        <h3>Gutter Repair</h3>
-        <div class="split-view">
-          <div class="pane"><span class="badge-pane">Before</span><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=80" alt="Gutter Before" /></div>
-          <div class="pane"><span class="badge-pane panel-after">After</span><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80" alt="Gutter After" /></div>
-        </div>
-      </div>
+      <!-- Project 1: Painting -->
       <div class="gallery-card">
         <h3>Interior Painting</h3>
         <div class="split-view">
-          <div class="pane"><span class="badge-pane">Before</span><img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=400&q=80" alt="Painting Before" /></div>
-          <div class="pane"><span class="badge-pane panel-after">After</span><img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=400&q=80" alt="Painting After" /></div>
+          <div class="pane">
+            <span class="badge-pane">Before</span>
+            <img src="painting-before.jpg" alt="Room prep work before painting" />
+          </div>
+          <div class="pane">
+            <span class="badge-pane panel-after">After</span>
+            <img src="painting-after.jpg" alt="Finished professional blue paint job" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Deck Restoration -->
+      <div class="gallery-card">
+        <h3>Deck Repair & Staining</h3>
+        <div class="split-view">
+          <div class="pane">
+            <span class="badge-pane">Before</span>
+            <img src="deck-before.jpg" alt="Weathered deck before reconstruction" />
+          </div>
+          <div class="pane">
+            <span class="badge-pane panel-after">After</span>
+            <img src="deck-after.jpg" alt="Beautifully rebuilt and stained deck" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Gutter Cleaning -->
+      <div class="gallery-card">
+        <h3>Gutter Maintenance</h3>
+        <div class="split-view">
+          <div class="pane">
+            <span class="badge-pane">Before</span>
+            <img src="gutter-before.jpg" alt="Gutter clogged with debris" />
+          </div>
+          <div class="pane">
+            <span class="badge-pane panel-after">After</span>
+            <img src="gutter-after.jpg" alt="Cleaned and clear gutter system" />
+          </div>
         </div>
       </div>
     </div>
@@ -240,13 +263,12 @@
       </div>
 
       <div class="contact-form-side">
-        <!-- Form submission processed via JavaScript -->
         <form class="quote-form" id="form">
           <!-- Active Web3Forms Access Key -->
           <input type="hidden" name="access_key" value="7b9f495d-37fe-48d5-962d-6b1087702b74" />
           
-          <!-- Optional: Honeypot Spam Protection (Invisible to humans) -->
-          <input type="checkbox" name="botcheck" class="hidden-honeypot" style="display: none;" />
+          <!-- Invisible Honeypot Spam Protection -->
+          <input type="checkbox" name="botcheck" style="display: none;" />
 
           <div class="form-row-2">
             <input type="text" name="First Name" placeholder="First Name" required />
@@ -269,7 +291,6 @@
       <p class="section-subtext">Proudly serving Cincinnati & Northern Kentucky.</p>
     </div>
     <div class="map-container">
-      <!-- Google Map centered on NKY/Cincinnati area -->
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99043.27218684784!2d-84.60447348911739!3d39.043516719119634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b1579be4063b%3A0xe54d24263ffcf701!2sNorthern%20Kentucky%2C%20KY!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus" 
         width="100%" 
@@ -288,7 +309,7 @@
     <p class="copyright">&copy; 2026 Farias Contracting LLC. All rights reserved.</p>
   </footer>
 
-  <!-- JavaScript to bypass McAfee WebAdvisor by sending data in the background -->
+  <!-- JavaScript Submission Handler -->
   <script>
     const form = document.getElementById('form');
     const submitBtn = document.getElementById('btn-submit');
@@ -314,7 +335,6 @@
       .then(async (response) => {
         let json = await response.json();
         if (response.status == 200) {
-          // Successfully sent! Redirect directly to your local thank-you page.
           window.location.href = "thank-you.html";
         } else {
           console.log(response);
